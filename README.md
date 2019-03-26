@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# moprap
-=======
-# fico-vs-kiska
->>>>>>> 321fbc08d7445cd5542d8024ca80cb60d3d0aa28
-=======
 # fico-vs-kiska
 
 Simple flask app using Resnet34 network for distinguish between image of former slovak prime minister R. Fico and slovak president A. Kiska hosted on Heroku.

@@ -1,5 +1,7 @@
 # fico-vs-kiska
 
+If its down just wait ~20 seconds for the heroku dynos to wake up.
+
 Simple flask app using Resnet34 network for distinguish between image of former slovak prime minister R. Fico and slovak president A. Kiska hosted on Heroku.
 
 ## Description

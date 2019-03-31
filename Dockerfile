@@ -6,6 +6,8 @@ RUN pip install scipy
 
 WORKDIR /app
 RUN apk add --no-cache libjpeg-turbo-dev libpng-dev
+RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt

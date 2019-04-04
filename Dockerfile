@@ -1,5 +1,15 @@
 FROM python:3.6-alpine
 
+RUN apk add --update \
+    curl \
+    && rm -rf /var/cache/apk/*
+
+WORKDIR /app
+
+COPY model_download.sh .
+
+RUN ./model_download.sh
+
 RUN apk --no-cache --update-cache add gcc gfortran python python-dev py-pip build-base wget freetype-dev libpng-dev openblas-dev
 
 RUN pip install scipy

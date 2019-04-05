@@ -20,7 +20,7 @@ RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 COPY requirements.txt .
 
-RUN pip install -r -U requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 

@@ -17,7 +17,7 @@ classes = ['fico', 'kiska']
 path = Path("")
 data = ImageDataBunch.single_from_classes(path, classes, tfms=get_transforms(), size=224).normalize(imagenet_stats)
 model = create_cnn(data, models.resnet34)
-model.load('fk')
+model.load('./fk')
 
 # main route
 @app.route('/')

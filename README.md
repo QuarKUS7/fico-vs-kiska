@@ -1,5 +1,7 @@
 # Fico alebo Kiska Web App
 
+[![Build Status](https://travis-ci.org/QuarKUS7/fico-vs-kiska.svg?branch=master)](https://travis-ci.org/QuarKUS7/fico-vs-kiska)
+
 Simple flask app using Resnet34 network for distinguish between image of former slovak prime minister R. Fico and slovak president A. Kiska hosted on Heroku.
 
 ## Description

@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/QuarKUS7/fico-vs-kiska.svg?branch=master)](https://travis-ci.org/QuarKUS7/fico-vs-kiska)
 
-A simple flask app using Resnet34 network for distinguish between an image of the former slovak prime minister R. Fico and the slovak president A. Kiska hosted on Heroku.
+A simple flask app using Resnet34 network for distinguish between an image of the former slovak prime minister R. Fico and the slovak president A. Kiska hosted on Heroku running Green Unicorn WSGI server.
 
 ## Description
 
